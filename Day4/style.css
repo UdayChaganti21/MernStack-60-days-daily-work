@@ -1,0 +1,19 @@
+.cart{
+    display:flex;
+    gap:50px;
+}
+.item{
+  border:1px;
+  text-align:center;
+}
+.item img{
+    width:200px;
+    height:200px;
+}
+.item button{
+    background-color:bisque;
+    color:crimson;
+}
+.item button:hover{
+    color:black;
+}
