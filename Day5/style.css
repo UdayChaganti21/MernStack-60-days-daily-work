@@ -1,0 +1,32 @@
+.parent{
+    background-color:blueviolet;
+    padding:10px;
+    font-size:30px;
+    display:grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 100px;
+    grid-gap:10px;
+    justify-content:center;
+    align-content: start;
+    height:200vh;
+    
+
+}
+.child1{
+    background-color:brown;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    align-self:center;
+
+}
+.child2{
+    background-color:aqua;
+    justify-self: center;
+ 
+}
+.child3{
+    background-color:bisque;
+}
+.child4{
+    background-color:chartreuse;
+}
