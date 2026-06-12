@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p >var A:<span id="varA"></span></p>
+    <p >let B:<span id="letB"b></span></p>
+    <p >const C:<span id="constC"></span></p>
+    <script>
+        var A=10;
+        document.getElementById('varA').textContent=A;
+        A=20;
+        document.getElementById('varA').textContent=A;
+        var A=30;
+        document.getElementById('varA').textContent=A; 
+        let B=50;
+        document.getElementById('letB').textContent= B;
+        B=60;
+        document.getElementById('letB').textContent=B;
+        const C=20;
+        document.getElementById('constC').textContent=C;
+
+    </script>
+</body>
+</html>
