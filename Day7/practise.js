@@ -1,0 +1,21 @@
+let name="uday";
+let value=10.65;
+let skills="java,pythons,html"
+console.log(name.length);
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.includes('aya'));
+console.log(name.slice(0,3));
+console.log(skills.split(','));
+console.log(name.replace("uday","chaganti"));
+console.log(name);
+console.log(name.concat(" ","chaganti"));
+console.log(value.toString());
+value1=value.toString();
+console.log(typeof(value));
+console.log(typeof(value1));
+console.log(Math.round(value));
+console.log(Math.random());
+let Name="uday";
+let age=20;
+console.log(`Name is ${Name} and age is ${age}`);
