@@ -18,4 +18,4 @@ console.log(Math.round(value));
 console.log(Math.random());
 let Name="uday";
 let age=20;
-console.log(`Name is ${Name} and age is ${age}`);
+console.log(`p[Name is ${Name} and age is ${age}`);
