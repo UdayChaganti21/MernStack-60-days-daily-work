@@ -7,64 +7,117 @@
     font-weight: 400;
     font-style: normal;
 }
-.cof{
-    font-size:30px;
+
+.cof {
+    font-size: 30px;
 }
-.navbar{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(246, 246, 246);
-    font-size:15px;
+
+.navbar {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(246, 246, 246);
+    font-size: 15px;
 }
-.navlist{
-    display:flex;
-    font-family:var(--main-font);
-    color:rgb(243, 239, 239);
-    justify-content:flex-end;
-    padding:1opx;
-    gap:30px;
-    
+
+.navlist {
+    display: flex;
+    font-family: var(--main-font);
+    color: rgb(243, 239, 239);
+    justify-content: flex-end;
+    padding: 1opx;
+    gap: 30px;
+
 }
-.header{
-    display:block;
-    background-color:rgb(27, 6, 10);
-    height:80px;
-    padding:40px;
+
+.header {
+    display: block;
 }
-.navlist items{
-    display:flex;
-    justify-content:space-between;
-    align-items:right;
+
+.top {
+    display: block;
+    background-color: rgb(27, 6, 10);
+    height: 80px;
+    padding: 40px;
 }
-.hero{
-    display:flex; 
-    align-items:center;  
-    height: calc(100vh - 80px);
-    background-color:rgb(0, 0, 0);
+
+.navlist items {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 05;
+}
+
+.h3 {
+    font-size: 30px;
+    color: white;
+}
+
 .text {
-    padding:40px;
-    width:50%;
-    text-align:left;
-    align-self:flex-start;
-    font-family:var(--main-font);
-    color:rgb(219, 223, 227);
-    font-size:15px;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    align-self: flex-start;
+    font-family: var(--main-font);
+    color: rgb(219, 223, 227);
+    font-size: 15px;
 }
-.image{
-    width:50%;
-    height:100%;
-    margin-left:auto;
+
+.image {
+    width: 50%;
+    height: 80vh;
+    margin-left: auto;
 }
-.image img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.h1 {
+    margin-top: 70px;
+      margin-left:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:30px;
-    
+.p{
+   margin-left:30px;
+}
+
+.h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+      margin-left:20px;
+
+}
+.list{
+      margin-left:30px;
+}
+
+.about {
+    height: 100vh;
+    margin-left: 20px;
+    font-family: var(--main-font);
+}
+
+.gallery {
+    height: 100vh;
+
+    font-family: var(--main-font);
+
+}
+
+.contact {
+    height: 100vh;
+
+    font-family: var(--main-font);
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
 }
