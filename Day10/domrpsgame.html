@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Rock Paper Scissors</p>
+    <button onclick="mouseclick(this)" class="playerchoice">Rock</button>
+    <button onclick="mouseclick(this)" class="playerchoice">Paper</button>
+    <button onclick="mouseclick(this)" class="playerchoice">Scissors</button>
+    <p class="resultpara"></p>
+    <script>
+        let result;
+
+        function mouseclick(button) {
+            const choice = ["Rock", "Paper", "Scissors"];
+            const ComputerChoice = choice[Math.floor(Math.random() * 3)];
+            console.log(ComputerChoice);
+
+            const clickEle = button.innerHTML;
+            alert(
+                `you selected ${clickEle} and computer selected ${ComputerChoice} `
+            );
+            console.log(clickEle);
+            console.log(ComputerChoice);
+
+            if (clickEle === ComputerChoice) {
+                result = "Tie";
+            }
+            else if (clickEle === "Rock") {
+                if (ComputerChoice === "Paper") {
+                    result = "Lose";
+                }
+                else {
+                    result = "Win";
+                }
+
+            }
+            else if (clickEle === "Paper") {
+                if (ComputerChoice === "Rock") {
+                    result = "Win";
+                }
+                else {
+                    result = "Lose";
+                }
+
+            }
+            else {
+                if (ComputerChoice === "Paper") {
+                    result = "Win";
+                }
+                else {
+                    result = "Lose";
+                }
+
+            }
+            document.querySelector(".resultpara").innerHTML = `Result is ${result}`;
+        }
+    </script>
+</body>
+
+</html>
